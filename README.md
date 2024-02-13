@@ -3,9 +3,9 @@
 
 ### 1) Data Exploration and Analysis 
 <img src="./Images/word-cloud-image.png" align="right" height="350" alt="word cloud">
+
 Script uses regex filtering on the tweets to clean up certain patterns and word types (links, emojis, single character typos, etc.)
 This results in a relativly clean data set. See word cloud **(right)** for most common words in the data set.
-
 
 ### 2) Data Processing and Preparation
 Training and test data are treated the same way with the test set never 'seeing' the training set for spillover. The training set is further split into a train and test for testing and validation of protocol and ML models.
