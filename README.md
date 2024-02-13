@@ -26,19 +26,22 @@ MultinomialNB (Naive Bayes)
 
 Logistic Regression
 * Time to fit = 11.186s (large grid search)
-* f1-score = 0.7405 **BEST**
+* f1-score = 0.7405 (very close to best)
 
 SGDClassifier (Stochastic Gradient Descent)
 * Time to fit = 0.031s
-* f1-score = 0.7410
+* f1-score = 0.7410 **BEST**
 
 LinearSVC (Support Vector Machine)
 * Time to fit = 1.375s
 * f1-score = 0.7309
 
-### 4) Use Logistic Regression Model for final data set
+### 4) Use Model for final data set
+TheLogistic Regression and Stochastic Gradient Descent wre extremly close so used both as separate attempts in the final submissions.
 Train final model with entire training set with best parameters found in testing phase.
 
-**Final submission score = 0.7916**
+**Final submission scores**
+* Stochastic Gradient Descent = 0.7873
+* Logistic Regression = **0.7916 (Best submission)**
 
 This is not a great result and can probably be improved with further processing of the data sets for filtering odd words and keywords for finding the sentiment.
